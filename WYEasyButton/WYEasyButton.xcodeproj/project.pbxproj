@@ -16,6 +16,7 @@
 		CF290EAC21017E3700EDCB55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290EAB21017E3700EDCB55 /* main.m */; };
 		CF290EB621017E3700EDCB55 /* WYEasyButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290EB521017E3700EDCB55 /* WYEasyButtonTests.m */; };
 		CF290EC121017E3800EDCB55 /* WYEasyButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290EC021017E3800EDCB55 /* WYEasyButtonUITests.m */; };
+		CF290ED12101B3B900EDCB55 /* WYBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290ECF2101B3B900EDCB55 /* WYBadgeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CF290EBC21017E3700EDCB55 /* WYEasyButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYEasyButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF290EC021017E3800EDCB55 /* WYEasyButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEasyButtonUITests.m; sourceTree = "<group>"; };
 		CF290EC221017E3800EDCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF290ECF2101B3B900EDCB55 /* WYBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBadgeButton.m; sourceTree = "<group>"; };
+		CF290ED02101B3B900EDCB55 /* WYBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBadgeButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		CF290E9821017E3600EDCB55 /* WYEasyButton */ = {
 			isa = PBXGroup;
 			children = (
+				CF290ECE2101B3B900EDCB55 /* WYEasyButton */,
 				CF290E9921017E3600EDCB55 /* AppDelegate.h */,
 				CF290E9A21017E3600EDCB55 /* AppDelegate.m */,
 				CF290E9C21017E3600EDCB55 /* ViewController.h */,
@@ -133,6 +137,15 @@
 				CF290EC221017E3800EDCB55 /* Info.plist */,
 			);
 			path = WYEasyButtonUITests;
+			sourceTree = "<group>";
+		};
+		CF290ECE2101B3B900EDCB55 /* WYEasyButton */ = {
+			isa = PBXGroup;
+			children = (
+				CF290ECF2101B3B900EDCB55 /* WYBadgeButton.m */,
+				CF290ED02101B3B900EDCB55 /* WYBadgeButton.h */,
+			);
+			path = WYEasyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				CF290E9E21017E3600EDCB55 /* ViewController.m in Sources */,
 				CF290E9B21017E3600EDCB55 /* AppDelegate.m in Sources */,
 				CF290EAC21017E3700EDCB55 /* main.m in Sources */,
+				CF290ED12101B3B900EDCB55 /* WYBadgeButton.m in Sources */,
 				CF290EA421017E3600EDCB55 /* WYEasyButton.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

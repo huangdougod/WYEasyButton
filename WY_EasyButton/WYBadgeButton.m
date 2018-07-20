@@ -7,7 +7,6 @@
 //
 
 #import "WYBadgeButton.h"
-#import <Masonry.h>
 @implementation WYBadgeButton
 
 - (instancetype)initWithFrame:(CGRect)frame{
