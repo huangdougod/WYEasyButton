@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF290E9B21017E3600EDCB55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290E9A21017E3600EDCB55 /* AppDelegate.m */; };
+		CF290E9E21017E3600EDCB55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290E9D21017E3600EDCB55 /* ViewController.m */; };
+		CF290EA121017E3600EDCB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF290E9F21017E3600EDCB55 /* Main.storyboard */; };
+		CF290EA421017E3600EDCB55 /* WYEasyButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF290EA221017E3600EDCB55 /* WYEasyButton.xcdatamodeld */; };
+		CF290EA621017E3700EDCB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF290EA521017E3700EDCB55 /* Assets.xcassets */; };
+		CF290EA921017E3700EDCB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF290EA721017E3700EDCB55 /* LaunchScreen.storyboard */; };
+		CF290EAC21017E3700EDCB55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290EAB21017E3700EDCB55 /* main.m */; };
+		CF290EB621017E3700EDCB55 /* WYEasyButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290EB521017E3700EDCB55 /* WYEasyButtonTests.m */; };
+		CF290EC121017E3800EDCB55 /* WYEasyButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF290EC021017E3800EDCB55 /* WYEasyButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF290EB221017E3700EDCB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF290E8E21017E3600EDCB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF290E9521017E3600EDCB55;
+			remoteInfo = WYEasyButton;
+		};
+		CF290EBD21017E3700EDCB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF290E8E21017E3600EDCB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF290E9521017E3600EDCB55;
+			remoteInfo = WYEasyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF290E9621017E3600EDCB55 /* WYEasyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYEasyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF290E9921017E3600EDCB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF290E9A21017E3600EDCB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF290E9C21017E3600EDCB55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF290E9D21017E3600EDCB55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF290EA021017E3600EDCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF290EA321017E3600EDCB55 /* WYEasyButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYEasyButton.xcdatamodel; sourceTree = "<group>"; };
+		CF290EA521017E3700EDCB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF290EA821017E3700EDCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF290EAA21017E3700EDCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF290EAB21017E3700EDCB55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF290EB121017E3700EDCB55 /* WYEasyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYEasyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF290EB521017E3700EDCB55 /* WYEasyButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEasyButtonTests.m; sourceTree = "<group>"; };
+		CF290EB721017E3700EDCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF290EBC21017E3700EDCB55 /* WYEasyButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYEasyButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF290EC021017E3800EDCB55 /* WYEasyButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEasyButtonUITests.m; sourceTree = "<group>"; };
+		CF290EC221017E3800EDCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF290E9321017E3600EDCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF290EAE21017E3700EDCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF290EB921017E3700EDCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF290E8D21017E3600EDCB55 = {
+			isa = PBXGroup;
+			children = (
+				CF290E9821017E3600EDCB55 /* WYEasyButton */,
+				CF290EB421017E3700EDCB55 /* WYEasyButtonTests */,
+				CF290EBF21017E3800EDCB55 /* WYEasyButtonUITests */,
+				CF290E9721017E3600EDCB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF290E9721017E3600EDCB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF290E9621017E3600EDCB55 /* WYEasyButton.app */,
+				CF290EB121017E3700EDCB55 /* WYEasyButtonTests.xctest */,
+				CF290EBC21017E3700EDCB55 /* WYEasyButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF290E9821017E3600EDCB55 /* WYEasyButton */ = {
+			isa = PBXGroup;
+			children = (
+				CF290E9921017E3600EDCB55 /* AppDelegate.h */,
+				CF290E9A21017E3600EDCB55 /* AppDelegate.m */,
+				CF290E9C21017E3600EDCB55 /* ViewController.h */,
+				CF290E9D21017E3600EDCB55 /* ViewController.m */,
+				CF290E9F21017E3600EDCB55 /* Main.storyboard */,
+				CF290EA521017E3700EDCB55 /* Assets.xcassets */,
+				CF290EA721017E3700EDCB55 /* LaunchScreen.storyboard */,
+				CF290EAA21017E3700EDCB55 /* Info.plist */,
+				CF290EAB21017E3700EDCB55 /* main.m */,
+				CF290EA221017E3600EDCB55 /* WYEasyButton.xcdatamodeld */,
+			);
+			path = WYEasyButton;
+			sourceTree = "<group>";
+		};
+		CF290EB421017E3700EDCB55 /* WYEasyButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF290EB521017E3700EDCB55 /* WYEasyButtonTests.m */,
+				CF290EB721017E3700EDCB55 /* Info.plist */,
+			);
+			path = WYEasyButtonTests;
+			sourceTree = "<group>";
+		};
+		CF290EBF21017E3800EDCB55 /* WYEasyButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF290EC021017E3800EDCB55 /* WYEasyButtonUITests.m */,
+				CF290EC221017E3800EDCB55 /* Info.plist */,
+			);
+			path = WYEasyButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF290E9521017E3600EDCB55 /* WYEasyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF290EC521017E3800EDCB55 /* Build configuration list for PBXNativeTarget "WYEasyButton" */;
+			buildPhases = (
+				CF290E9221017E3600EDCB55 /* Sources */,
+				CF290E9321017E3600EDCB55 /* Frameworks */,
+				CF290E9421017E3600EDCB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYEasyButton;
+			productName = WYEasyButton;
+			productReference = CF290E9621017E3600EDCB55 /* WYEasyButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF290EB021017E3700EDCB55 /* WYEasyButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF290EC821017E3800EDCB55 /* Build configuration list for PBXNativeTarget "WYEasyButtonTests" */;
+			buildPhases = (
+				CF290EAD21017E3700EDCB55 /* Sources */,
+				CF290EAE21017E3700EDCB55 /* Frameworks */,
+				CF290EAF21017E3700EDCB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF290EB321017E3700EDCB55 /* PBXTargetDependency */,
+			);
+			name = WYEasyButtonTests;
+			productName = WYEasyButtonTests;
+			productReference = CF290EB121017E3700EDCB55 /* WYEasyButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF290EBB21017E3700EDCB55 /* WYEasyButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF290ECB21017E3800EDCB55 /* Build configuration list for PBXNativeTarget "WYEasyButtonUITests" */;
+			buildPhases = (
+				CF290EB821017E3700EDCB55 /* Sources */,
+				CF290EB921017E3700EDCB55 /* Frameworks */,
+				CF290EBA21017E3700EDCB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF290EBE21017E3700EDCB55 /* PBXTargetDependency */,
+			);
+			name = WYEasyButtonUITests;
+			productName = WYEasyButtonUITests;
+			productReference = CF290EBC21017E3700EDCB55 /* WYEasyButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF290E8E21017E3600EDCB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "dkt网络有限公司";
+				TargetAttributes = {
+					CF290E9521017E3600EDCB55 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CF290EB021017E3700EDCB55 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF290E9521017E3600EDCB55;
+					};
+					CF290EBB21017E3700EDCB55 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF290E9521017E3600EDCB55;
+					};
+				};
+			};
+			buildConfigurationList = CF290E9121017E3600EDCB55 /* Build configuration list for PBXProject "WYEasyButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF290E8D21017E3600EDCB55;
+			productRefGroup = CF290E9721017E3600EDCB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF290E9521017E3600EDCB55 /* WYEasyButton */,
+				CF290EB021017E3700EDCB55 /* WYEasyButtonTests */,
+				CF290EBB21017E3700EDCB55 /* WYEasyButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF290E9421017E3600EDCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF290EA921017E3700EDCB55 /* LaunchScreen.storyboard in Resources */,
+				CF290EA621017E3700EDCB55 /* Assets.xcassets in Resources */,
+				CF290EA121017E3600EDCB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF290EAF21017E3700EDCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF290EBA21017E3700EDCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF290E9221017E3600EDCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF290E9E21017E3600EDCB55 /* ViewController.m in Sources */,
+				CF290E9B21017E3600EDCB55 /* AppDelegate.m in Sources */,
+				CF290EAC21017E3700EDCB55 /* main.m in Sources */,
+				CF290EA421017E3600EDCB55 /* WYEasyButton.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF290EAD21017E3700EDCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF290EB621017E3700EDCB55 /* WYEasyButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF290EB821017E3700EDCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF290EC121017E3800EDCB55 /* WYEasyButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF290EB321017E3700EDCB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF290E9521017E3600EDCB55 /* WYEasyButton */;
+			targetProxy = CF290EB221017E3700EDCB55 /* PBXContainerItemProxy */;
+		};
+		CF290EBE21017E3700EDCB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF290E9521017E3600EDCB55 /* WYEasyButton */;
+			targetProxy = CF290EBD21017E3700EDCB55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF290E9F21017E3600EDCB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF290EA021017E3600EDCB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF290EA721017E3700EDCB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF290EA821017E3700EDCB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF290EC321017E3800EDCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF290EC421017E3800EDCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF290EC621017E3800EDCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYEasyButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dkt.WYEasyButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF290EC721017E3800EDCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYEasyButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dkt.WYEasyButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF290EC921017E3800EDCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYEasyButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dkt.WYEasyButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYEasyButton.app/WYEasyButton";
+			};
+			name = Debug;
+		};
+		CF290ECA21017E3800EDCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYEasyButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dkt.WYEasyButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYEasyButton.app/WYEasyButton";
+			};
+			name = Release;
+		};
+		CF290ECC21017E3800EDCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYEasyButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dkt.WYEasyButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYEasyButton;
+			};
+			name = Debug;
+		};
+		CF290ECD21017E3800EDCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYEasyButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dkt.WYEasyButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYEasyButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF290E9121017E3600EDCB55 /* Build configuration list for PBXProject "WYEasyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF290EC321017E3800EDCB55 /* Debug */,
+				CF290EC421017E3800EDCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF290EC521017E3800EDCB55 /* Build configuration list for PBXNativeTarget "WYEasyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF290EC621017E3800EDCB55 /* Debug */,
+				CF290EC721017E3800EDCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF290EC821017E3800EDCB55 /* Build configuration list for PBXNativeTarget "WYEasyButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF290EC921017E3800EDCB55 /* Debug */,
+				CF290ECA21017E3800EDCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF290ECB21017E3800EDCB55 /* Build configuration list for PBXNativeTarget "WYEasyButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF290ECC21017E3800EDCB55 /* Debug */,
+				CF290ECD21017E3800EDCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF290EA221017E3600EDCB55 /* WYEasyButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF290EA321017E3600EDCB55 /* WYEasyButton.xcdatamodel */,
+			);
+			currentVersion = CF290EA321017E3600EDCB55 /* WYEasyButton.xcdatamodel */;
+			path = WYEasyButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF290E8E21017E3600EDCB55 /* Project object */;
+}
